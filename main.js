@@ -1,6 +1,8 @@
 let container = document.getElementById("container");
 let submitItem = document.getElementById("submitBtn");
 
+window.addEventListener("DOMContentLoaded", myFunction);
+
 function myFunction() {
   axios
     .get(
